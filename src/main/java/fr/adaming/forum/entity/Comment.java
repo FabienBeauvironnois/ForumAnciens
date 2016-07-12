@@ -40,6 +40,13 @@ public class Comment {
 		this.topic = topic;
 		this.date = LocalDateTime.now();
 	}
+	
+	
+
+	public Comment() {
+		super();
+	}
+	
 
 	public String getTitle() {
 		return title;
